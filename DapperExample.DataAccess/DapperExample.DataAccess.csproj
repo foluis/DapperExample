@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DapperExample.Models\DapperExample.Models.csproj" />
+  </ItemGroup>
+
 </Project>
