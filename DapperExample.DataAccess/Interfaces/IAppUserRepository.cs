@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DapperExample.DataAccess.Interfaces
 {
-    interface IAppUserRepository
+    public interface IAppUserRepository
     {
     }
 }

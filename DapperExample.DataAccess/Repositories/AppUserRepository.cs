@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DapperExample.DataAccess.Repositories
 {
-    class AppUserRepository
+    public class AppUserRepository
     {
     }
 }
