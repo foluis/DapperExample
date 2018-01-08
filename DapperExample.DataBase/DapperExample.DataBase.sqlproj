@@ -68,6 +68,7 @@
   <ItemGroup>
     <None Include="DapperExample.DataBase.Local.publish.xml" />
     <None Include="dbo\Scripts\Post-Deploy\DatabaseInitialData.sql" />
+    <None Include="DapperExampleAsus.DataBase.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="dbo\Scripts\Post-Deploy\Script.PostDeployment.sql" />

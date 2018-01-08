@@ -4,9 +4,8 @@ using System.Text;
 
 namespace DapperExample.Models
 {
-    public class AppUser
+    public class CustomSettings
     {
-        public int Id { get; set; }
-        public int UserName { get; set; }
+        public string ConnectionString { get; set; }
     }
 }

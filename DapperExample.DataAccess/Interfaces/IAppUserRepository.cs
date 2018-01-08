@@ -8,6 +8,7 @@ namespace DapperExample.DataAccess.Interfaces
 {
     public interface IAppUserRepository
     {
+        Task<IEnumerable<AppUser>> GetAllUsers();
         Task<IEnumerable<AppUser>> GetAppUsers(int pageNum, int pageSize, string sortColumnName, string sortOrder);
     }
 }
